@@ -8,7 +8,9 @@ describe('UsersService', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [UsersService]dsdasdasdasdas
+
+      providers: [UsersService]
+
     });
 
     usersService = TestBed.get(UsersService); // Add this
